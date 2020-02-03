@@ -173,7 +173,7 @@ function createFinalScene() {
     }
 }
 
-
+createFigure();
 setTimeout(function run() {
     createFigure();
     setTimeout(run, 5000)
